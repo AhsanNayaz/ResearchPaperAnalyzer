@@ -1,0 +1,10 @@
+tensorFlow
+numPy
+sciPy 
+Pandas
+Matplotlib 
+Keras
+SciKit-Learn
+Scrapy
+beautifulsoup4
+

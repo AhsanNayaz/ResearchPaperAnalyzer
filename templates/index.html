@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+    <form name="form", method="POST", style="text-align:center;", enctype="multipart/form-data">
+        <br> 
+        <input type="input" id="name" name="name" class="form__field" id="name"
+        placeholder="Enter prompt to get specific info about microsoft earnings:" required/>
+        <br>
+        <p><input type="file" name="file"></p>
+        <br>
+        <button class="custom-btn btn-7"><span>Run</span></button>
+    </form>
+    <p style="text-align: center;">{{ output }}</p>
+{% endblock %}
